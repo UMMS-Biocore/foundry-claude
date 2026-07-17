@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "foundry": {
+      "url": "${instance_url}/mcp"
+    }
+  }
+}
