@@ -1,6 +1,7 @@
 {
   "name": "foundry-claude",
   "owner": { "name": "UMMS Biocore — ViaFoundry" },
+  "description": "Marketplace for the foundry-claude plugin — drive the ViaFoundry pipeline lifecycle conversationally from Claude over the ViaFoundry remote MCP server.",
   "plugins": [
     {
       "name": "foundry-claude",
