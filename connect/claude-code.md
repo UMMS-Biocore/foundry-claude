@@ -9,7 +9,7 @@ tools.
 Inside a Claude Code session (type these at the Claude Code prompt, not in your terminal):
 
 ```
-/plugin marketplace add UMMS-Biocore/foundry-connect
+/plugin marketplace add UMMS-Biocore/foundry-connect-plugin
 /plugin install foundry-connect@foundry-connect
 ```
 

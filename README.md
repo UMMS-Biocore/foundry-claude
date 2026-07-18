@@ -22,7 +22,7 @@ and duplicate/launch pipeline runs — conversationally, from whichever Claude s
    terminal):
 
    ```
-   /plugin marketplace add UMMS-Biocore/foundry-connect
+   /plugin marketplace add UMMS-Biocore/foundry-connect-plugin
    /plugin install foundry-connect@foundry-connect
    ```
 
