@@ -22,5 +22,5 @@ deployment publishes a bundle; if none is available, use Option A.
 
 If your instance doesn't have the OAuth build, create a Personal Access Token in ViaFoundry (your
 account → Personal Access Tokens — it starts with `via_mcp_`) and supply it as the connector's
-auth token, or as an `X-ViaFoundry-Token: via_mcp_...` header if your Desktop version exposes
+auth token, or as an `X-Foundry-Connect-Token: via_mcp_...` header if your Desktop version exposes
 custom headers for connectors, instead of using the OAuth "Connect" step.

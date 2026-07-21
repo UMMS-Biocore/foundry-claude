@@ -56,8 +56,10 @@ plugin's bundled server, which currently only supports the OAuth flow:
 
 ```bash
 claude mcp add --transport http foundry https://<your-instance>/mcp \
-  --header "X-ViaFoundry-Token: via_mcp_..."
+  --header "X-Foundry-Connect-Token: via_mcp_..."
 ```
 
 You still get the same MCP tools this way, under the same `foundry` server name — just via a
 token instead of a browser sign-in.
+
+> The legacy `X-ViaFoundry-Token` header is still accepted for backward compatibility, so older setups keep working.
