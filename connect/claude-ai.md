@@ -26,6 +26,6 @@ revoke individually.
 If your ViaFoundry instance predates the OAuth build, the custom-connector OAuth flow won't be
 available. In that case, create a Personal Access Token in ViaFoundry (your account → Personal
 Access Tokens — it starts with `via_mcp_`) and use it wherever your Claude for Science/claude.ai
-connector setup accepts an auth token or header (`X-ViaFoundry-Token: via_mcp_...`) instead of the
+connector setup accepts an auth token or header (`X-Foundry-Connect-Token: via_mcp_...`) instead of the
 OAuth "Connect" button. Check your workspace admin if custom-connector auth headers aren't exposed
 in your claude.ai settings.
